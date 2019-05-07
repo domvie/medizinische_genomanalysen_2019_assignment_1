@@ -168,7 +168,11 @@ class Assignment1:
 
     def get_region_of_gene(self):
         print("Region of gene:")
-        print("Chromosome: ", self.genedict["chrom"])
+        print("Exon starts: ")
+        #print("Chromosome: ", self.genedict["chrom"])
+        print(self.genedict["exonStarts"])
+        print("Exon ends: ")
+        print(self.genedict["exonEnds"])
         print()
         
     def get_number_of_exons(self):
